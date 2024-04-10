@@ -1,26 +1,21 @@
 <script>
-export default{
-  
-}
+import AppJumbo from './components/AppJumbo.vue';
+
+
+
+
+export default {
+		components: {
+      AppJumbo,
+    }
+		}
 </script>
 
 <template>
-  <div>
-    <h1>LA MIA PRIMA APP</h1>
-  </div>
+  <AppJumbo>
+  </AppJumbo>
 </template>
 
 <style>
-div{
-  width: 600px;
-  margin: 0 auto;
-  height: 500px;
-  background-image: url('./assets/Damiano.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: blue;
-}
+
 </style>
